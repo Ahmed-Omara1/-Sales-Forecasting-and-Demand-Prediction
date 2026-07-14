@@ -1,0 +1,42 @@
+[
+  {
+    "Model": "XGBoost Regressor",
+    "MAE": 96.36375624421179,
+    "MSE": 109965.4070829569,
+    "RMSE": 331.6103241501339,
+    "R2 Score": 0.9406661050731708,
+    "CV Mean RMSE": NaN,
+    "CV STD RMSE": NaN,
+    "Best CV RMSE": NaN
+  },
+  {
+    "Model": "Tuned Random Forest Regressor",
+    "MAE": 144.14699946045374,
+    "MSE": 169335.30171543206,
+    "RMSE": 411.5037080214856,
+    "R2 Score": 0.908631966489182,
+    "CV Mean RMSE": NaN,
+    "CV STD RMSE": NaN,
+    "Best CV RMSE": 513.491146343281
+  },
+  {
+    "Model": "Linear Regression",
+    "MAE": 318.2157315814635,
+    "MSE": 707213.5169894947,
+    "RMSE": 840.9598783470557,
+    "R2 Score": 0.6184097015506664,
+    "CV Mean RMSE": 755.6041015083282,
+    "CV STD RMSE": 62.80943346285957,
+    "Best CV RMSE": NaN
+  },
+  {
+    "Model": "SARIMA",
+    "MAE": 86067.66395526621,
+    "MSE": 17220893276.403778,
+    "RMSE": 131228.40118055153,
+    "R2 Score": 0.5056178897577623,
+    "CV Mean RMSE": NaN,
+    "CV STD RMSE": NaN,
+    "Best CV RMSE": NaN
+  }
+]
