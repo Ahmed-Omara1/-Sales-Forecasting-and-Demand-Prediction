@@ -46,29 +46,21 @@ Built on the [Kaggle Store Sales - Time Series Forecasting](https://www.kaggle.c
 ## Project Structure
 
 ```
-.
-├── grad_project_fixed_code (1).ipynb   # Full ML pipeline notebook
-├── feature_engineering.py              # Shared feature engineering (API + Dashboard)
-├── xgboost_sales_forecasting_model.pkl # Trained XGBoost model
-├── model_metrics.json                  # All model evaluation metrics
-│
-├── app.py                              # FastAPI REST API
-├── dashboard.py                        # Streamlit interactive dashboard
-│
-├── monitoring.py                       # Model monitoring & drift detection
-├── retrain.py                          # Automated retraining pipeline
-├── retraining_config.json              # Retraining thresholds & settings
-├── monitoring_log.json                 # Monitoring history log
-│
-├── requirements.txt                    # Python dependencies
-└── store-sales-time-series-forecasting/
-    ├── train.csv                       # Training data
-    ├── test.csv                        # Test data (Kaggle)
-    ├── stores.csv                      # Store metadata
-    ├── oil.csv                         # Daily oil prices
-    ├── holidays_events.csv             # Ecuadorian holidays
-    ├── transactions.csv                # Store transactions
-    └── sample_submission.csv           # Kaggle submission format
+sales-forecasting/
+├── notebook/
+│   ├── grad_project_code.ipynb   
+├── deployment/
+│   ├── app.py                    ← FastAPI
+│   ├── dashboard.py              ← Streamlit
+│   ├── feature_engineering.py
+│   ├── monitoring.py
+│   ├── retrain.py
+│   ├── requirements.txt
+│   ├── xgboost_sales_forecasting_model.pkl
+├── docs/
+│   ├── Presentation.pptx
+│   └── Final_Report.docx
+└── README.md
 ```
 
 ---
