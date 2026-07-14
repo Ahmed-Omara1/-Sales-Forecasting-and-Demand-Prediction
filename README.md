@@ -47,7 +47,7 @@ Built on the [Kaggle Store Sales - Time Series Forecasting](https://www.kaggle.c
 
 ```
 sales-forecasting/
-├── notebooks/
+├── notebook/
 │   ├── grad_project_code.ipynb   
 ├── deployment/
 │   ├── app.py                    ← FastAPI
