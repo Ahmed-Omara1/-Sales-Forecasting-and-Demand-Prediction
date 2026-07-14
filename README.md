@@ -1,4 +1,4 @@
-# Store Sales Forecasting with MLOps Pipeline
+# Store Sales Forecasting 
 
 End-to-end machine learning project for forecasting retail store sales using **XGBoost** and **Random Forest**, with a full **MLOps pipeline** covering deployment, monitoring, and automated retraining.
 
