@@ -89,7 +89,7 @@ Built on the [Kaggle Store Sales - Time Series Forecasting](https://www.kaggle.c
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/store-sales-forecasting.git
+git clone https://github.com/Ahmed-Omara1/-Sales-Forecasting-and-Demand-Prediction.git
 cd store-sales-forecasting
 ```
 
