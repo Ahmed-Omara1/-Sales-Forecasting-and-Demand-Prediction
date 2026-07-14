@@ -1,0 +1,37 @@
+{
+  "last_retrained": "2026-07-06T18:23:14.800155",
+  "last_rmse": 331.6103241501339,
+  "last_r2": 0.9406661050731708,
+  "retraining_count": 1,
+  "retraining_history": [
+    {
+      "timestamp": "2026-07-06T18:23:14.800155",
+      "cv_rmse_mean": 475.12444663552,
+      "cv_rmse_std": 60.20110254155746,
+      "test_mae": 96.36375624421179,
+      "test_rmse": 331.6103241501339,
+      "test_r2": 0.9406661050731708,
+      "deployed": true,
+      "reason": "No previous model version found. Deploying first retrained model."
+    },
+    {
+      "timestamp": "2026-07-06T18:29:54.118818",
+      "cv_rmse_mean": 475.12444663552,
+      "cv_rmse_std": 60.20110254155746,
+      "test_mae": 96.36375624421179,
+      "test_rmse": 331.6103241501339,
+      "test_r2": 0.9406661050731708,
+      "deployed": false,
+      "reason": "New model degraded RMSE by 0.00%. Keeping current model."
+    }
+  ],
+  "model_versions": [
+    {
+      "version": 1,
+      "timestamp": "2026-07-06T18:23:14.800155",
+      "rmse": 331.6103241501339,
+      "r2": 0.9406661050731708,
+      "training_samples": 2400710
+    }
+  ]
+}

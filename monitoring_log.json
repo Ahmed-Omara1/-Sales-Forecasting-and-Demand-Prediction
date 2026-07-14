@@ -1,0 +1,161 @@
+[
+  {
+    "timestamp": "2026-07-06T18:06:37.525999",
+    "metrics": {
+      "MAE": 96.3638,
+      "MSE": 109965.4071,
+      "RMSE": 331.6103,
+      "R2": 0.9407,
+      "sample_size": 600178,
+      "timestamp": "2026-07-06T18:04:24.193751"
+    },
+    "drift_detected": true,
+    "alert_triggered": false,
+    "drift_details": {
+      "store_nbr": {
+        "ks_statistic": 0.0,
+        "p_value": 1.0,
+        "drift_detected": "False",
+        "ref_mean": 27.5001,
+        "new_mean": 27.4997,
+        "ref_std": 15.5858,
+        "new_std": 15.5858
+      },
+      "onpromotion": {
+        "ks_statistic": 0.3004,
+        "p_value": 0.0,
+        "drift_detected": "True",
+        "ref_mean": 1.4686,
+        "new_mean": 7.1396,
+        "ref_std": 9.5289,
+        "new_std": 18.9097
+      },
+      "dcoilwtico": {
+        "ks_statistic": 0.5983,
+        "p_value": 0.0,
+        "drift_detected": "True",
+        "ref_mean": 72.6291,
+        "new_mean": 49.108,
+        "ref_std": 26.6542,
+        "new_std": 3.1843
+      },
+      "transactions": {
+        "ks_statistic": 0.0747,
+        "p_value": 0.0,
+        "drift_detected": "True",
+        "ref_mean": 1536.1716,
+        "new_mean": 1634.3529,
+        "ref_std": 1042.5505,
+        "new_std": 991.9085
+      },
+      "year": {
+        "ks_statistic": 0.8106,
+        "p_value": 0.0,
+        "drift_detected": "True",
+        "ref_mean": 2014.3789,
+        "new_mean": 2016.674,
+        "ref_std": 1.0745,
+        "new_std": 0.4688
+      },
+      "month": {
+        "ks_statistic": 0.0675,
+        "p_value": 0.0,
+        "drift_detected": "True",
+        "ref_mean": 6.1704,
+        "new_mean": 6.3575,
+        "ref_std": 3.3476,
+        "new_std": 3.5297
+      },
+      "day": {
+        "ks_statistic": 0.0082,
+        "p_value": 0.0,
+        "drift_detected": "True",
+        "ref_mean": 15.6268,
+        "new_mean": 15.6431,
+        "ref_std": 8.8099,
+        "new_std": 8.7341
+      },
+      "dayofweek": {
+        "ks_statistic": 0.0045,
+        "p_value": 0.0,
+        "drift_detected": "True",
+        "ref_mean": 3.0018,
+        "new_mean": 2.978,
+        "ref_std": 2.0011,
+        "new_std": 1.9991
+      },
+      "weekofyear": {
+        "ks_statistic": 0.0765,
+        "p_value": 0.0,
+        "drift_detected": "True",
+        "ref_mean": 25.105,
+        "new_mean": 25.7945,
+        "ref_std": 14.6467,
+        "new_std": 15.3598
+      },
+      "is_weekend": {
+        "ks_statistic": 0.0045,
+        "p_value": 0.0,
+        "drift_detected": "True",
+        "ref_mean": 0.2865,
+        "new_mean": 0.2821,
+        "ref_std": 0.4521,
+        "new_std": 0.45
+      },
+      "is_holiday": {
+        "ks_statistic": 0.0041,
+        "p_value": 0.0,
+        "drift_detected": "True",
+        "ref_mean": 0.0276,
+        "new_mean": 0.0235,
+        "ref_std": 0.1638,
+        "new_std": 0.1516
+      },
+      "is_national_holiday": {
+        "ks_statistic": 0.0037,
+        "p_value": 0.0,
+        "drift_detected": "True",
+        "ref_mean": 0.0245,
+        "new_mean": 0.0208,
+        "ref_std": 0.1546,
+        "new_std": 0.1427
+      },
+      "is_regional_holiday": {
+        "ks_statistic": 0.0001,
+        "p_value": 1.0,
+        "drift_detected": "False",
+        "ref_mean": 0.0003,
+        "new_mean": 0.0004,
+        "ref_std": 0.0182,
+        "new_std": 0.0196
+      },
+      "is_local_holiday": {
+        "ks_statistic": 0.0003,
+        "p_value": 1.0,
+        "drift_detected": "False",
+        "ref_mean": 0.0028,
+        "new_mean": 0.0024,
+        "ref_std": 0.0525,
+        "new_std": 0.0491
+      },
+      "is_event": {
+        "ks_statistic": 0.0297,
+        "p_value": 0.0,
+        "drift_detected": "True",
+        "ref_mean": 0.0386,
+        "new_mean": 0.0089,
+        "ref_std": 0.1926,
+        "new_std": 0.094
+      },
+      "cluster": {
+        "ks_statistic": 0.0,
+        "p_value": 1.0,
+        "drift_detected": "False",
+        "ref_mean": 8.4815,
+        "new_mean": 8.4816,
+        "ref_std": 4.6497,
+        "new_std": 4.6497
+      }
+    }
+  }
+]
